@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: gray;
+    /* width: 434px; */
+    height: 100vh;
+    transition: transform 0.5s ease-in;
+
+
+}
+
+/* .screen{
+    /* width: 345px; */
+/* } */ */
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+
+}
+
+.container{
+    display: flex;
+    
+   
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 24px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.infoContainer{
+    /* background: rgb(202,9,128); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+
+}
+
+.pic img{
+    width: 43vh;
+    border-radius: 128px;
+    /* justify-content: space-around; */
+    margin: 24px;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 146px;
+}
+
+.hello{
+    font-size: 65px;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: -webkit-body;
+}
+
+.about{
+    font-size: 40px;
+}
+
+.moreabout{
+    margin: 5px;
+    font-size: 23px;
+}
+
+.button{
+    margin-top: 34px;
+}
+
+.btn:hover{
+    background: white;
+    color: dodgerblue;
+
+}
+
+.btn{
+    padding: 9px 12px;
+    border-radius: 19px;
+    color: white;
+    background: dodgerblue;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0px 3px;
+    cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+.contactform{
+    padding: 144px 34px;
+    font-family: -webkit-body;
+}
+
+.contactform h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 3px 0px;
+}
+
+.contactform form div{
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px;
+}
+
+.blogItem{
+    margin: 20px;
+    font-family: -webkit-body;
+}
+
+.blogItem p{
+    font-family: -webkit-body;
+}
+
+.blogContainer h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 23px;
+}
+
+.intro h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 12px;
+    
+
+}
+
+.intro p{
+    font-family: -webkit-body;
+    margin: 12px;
+}
+
+.skillcontainer{
+    padding: 12px;
+}
+
+.skill{
+    background-color: red;
+    width: 265px;
+    height: 6px;
+    border: 2px solid black;
+}
+
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    
+}
+
+.hundered{
+    width: 250px;
+    background-color:blueviolet ;
+}
+
+.seventypercent{
+    width: 150px;
+    background-color: aqua;
+}
+
+.fiftypercent{
+    width: 100px;
+    background-color: yellow;
+}
+
+.projects{
+    margin: 5px;
+    padding: 6px;
+}
+
+.projects img{
+    border-radius: 15px;
+    width: 400px;
+}
+
+.projects p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.detail{
+    margin: 20px;
+}
+
+.detail linkedin{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.hamburger{
+    top: 10px;
+    position: absolute;
+    cursor: pointer;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 140px;
+}
+
+.sidebargo{
+    transform: translate(-443px, 0);
+    position: absolute;
+}
